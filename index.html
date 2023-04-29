@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fav Perso</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/a3dce5eeee.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1E3050;
+            color: #fff;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <button onclick="redirectToRandomSite()"
+        style="background:none;border:none;font-size:2rem;color: white;cursor:pointer;">
+        <i class="fas fa-sharp fa-regular fa-link fa-4x"></i>
+    </button>
+
+
+    <script src="urls.js"></script>
+    <script>
+        function redirectToRandomSite() {
+            // Pick a random URL from the list
+            var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+
+            // Delay for 2 seconds before redirecting
+            setTimeout(function () {
+                // Redirect to the chosen URL
+                window.open(randomUrl, '_blank');
+            }, 500);
+        }
+    </script>
+</body>
+
+</html>
