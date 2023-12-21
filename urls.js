@@ -24,7 +24,7 @@ var urls = [
     "https://neal.fun/space-elevator/",
     "https://youtu.be/iE39q-IKOzA",
     "https://pouria.dev/unknown-pleasures",
-    "https://goo.gl/maps/CMt9aoBkGD93EyYx9",
+    "https://goo.gl/maps/YrfuLKibQR6xY9ZP6",
     "https://www.loc.gov/resource/sn83045774/1922-05-07/ed-1?sp=87&r=-1.39,-0.086,3.737,1.47,0",
     "https://randomairport.onrender.com/",
     "https://coutant.org/contents.html",
@@ -45,4 +45,9 @@ var urls = [
     "https://fr.wikipedia.org/wiki/Umarell",
     "https://docs.google.com/spreadsheets/d/1_EjJsdfzLL6LaTtJnTZ26BzHRHBDJy1paHeeZ87toT0/edit?usp=sharing",
     "https://artvee.com/",
+    "https://dalle.party/",
+    "https://www.trainoclock.com/fr-FR",
+    "https://programmedesexpos.paris/",
+    "https://glitchgallery.org/",
+    "https://www.seat61.com/France.htm",
 ];
