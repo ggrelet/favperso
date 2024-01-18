@@ -50,4 +50,9 @@ var urls = [
     "https://programmedesexpos.paris/",
     "https://glitchgallery.org/",
     "https://www.seat61.com/France.htm",
+    "https://jveuxdusoleil.fr/",
+    "https://satoshi7190.github.io/Shinjuku-indoor-threejs-demo/",
+    "https://acme.com/same_scale/",
+    "https://shademap.app/",
+    "https://bleuje.com/randomanimations/",
 ];
